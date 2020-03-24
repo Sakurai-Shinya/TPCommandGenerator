@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // 制御されます。アセンブリに関連付けられている情報を変更するには、
 // これらの属性値を変更します。
 [assembly: AssemblyTitle("TPCommandGenerator")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Minecraftでtpコマンドを生成するソフト")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("櫻井 進也")]
 [assembly: AssemblyProduct("TPCommandGenerator")]
-[assembly: AssemblyCopyright("Copyright ©  2020")]
+[assembly: AssemblyCopyright("© 2020 Sakurai Shinya")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
