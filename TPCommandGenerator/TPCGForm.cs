@@ -30,8 +30,7 @@ namespace TPCommandGenerator {
 					return;
 				}
 			} else {
-				if(
-					this.DestinationX.Text.Equals("") || this.DestinationY.Text.Equals("") || this.DestinationZ.Text.Equals("") || !(double.TryParse(this.DestinationX.Text,out x) && double.TryParse(this.DestinationY.Text,out y) && double.TryParse(this.DestinationZ.Text,out z))
+				if(this.DestinationX.Text.Equals("") || this.DestinationY.Text.Equals("") || this.DestinationZ.Text.Equals("") || !(double.TryParse(this.DestinationX.Text,out x) && double.TryParse(this.DestinationY.Text,out y) && double.TryParse(this.DestinationZ.Text,out z))
 				) {
 					MessageBox.Show("転送先の座標が正しくありません。","TP Command Generator",MessageBoxButtons.OK,MessageBoxIcon.Error);
 					return;
@@ -41,7 +40,6 @@ namespace TPCommandGenerator {
 				MessageBox.Show("その行動は無意味です。","TP Command Generator",MessageBoxButtons.OK,MessageBoxIcon.Information);
 				return;
 			}
-
 
 			//コマンド作成
 			this.ResultBox.Text = "/tp ";
